@@ -1,0 +1,5 @@
+# inore files in folder log
+log/
+
+# ignore files txt in folder css
+css/*.txt
