@@ -1,7 +1,9 @@
 ﻿function vers()
 {
 	var Text = ""
-	Text+="Версия 1\n";
+	Text+="Изменение 1\n";
+	Text+="Изменение 2\n";
+	
 	alert(Text);
 }
 
