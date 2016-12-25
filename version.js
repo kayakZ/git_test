@@ -10,4 +10,10 @@
 	alert(Text);
 }
 
+function newBranch()
+{
+	var Text = "Новая функция !!!!"
+	alert(Text);
+}
 vers();
+newBranch();
