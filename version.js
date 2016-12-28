@@ -9,28 +9,39 @@
 	Text+="Изменение 6  Отмена 5-й фиксации!\n";
 	Text+="Изменение 7  \n";
 	Text+="Изменение 8  \n";
+	Text+="Изменение 10  \n";
 	
 	alert(Text);
-	newFunc_1()
-	newFunc_2()
-	newFunc_3()
+	
+	
+	var resWorkFunc=" ";
+	resWorkFunc+=newFunc_1()
+	resWorkFunc+=newFunc_2()
+	resWorkFunc+=newFunc_3()
+	alert(resWorkFunc)
+	
 }
 //------------------------------------------------------------
 function newFunc_1()
 {
-	var Text = "Новая функция !!!!"
-	alert(Text);
+	var Text = "Новая функция !!!!\n"
+	//alert(Text);
+	return Text;
 }
 //------------------------------------------------------------
 function newFunc_2()
 {
-	var Text = "Новая функция - 2"
-	alert(Text);
+	var Text = "Новая функция - 2\n"
+	//alert(Text);
+	return Text;
 	
 }
+//------------------------------------------------------------
 function newFunc_3()
 {
-	var Text = "Новая функция - 3"
-	alert(Text);
+	var Text = "Новая функция - 3\n"
+	//alert(Text);
+	return Text;
 }
+//-------------------------------------------------------------
 vers();
