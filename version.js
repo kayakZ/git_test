@@ -1,4 +1,5 @@
-﻿function vers()
+﻿var exp_1="x=5;z=x*x;";
+function vers()
 {
 	var Text = ""
 	Text+="Изменение 14 GitHub 13.02.2017\n";
@@ -8,16 +9,16 @@
 	
 	
 	var resWorkFunc=" ";
-	resWorkFunc+=newFunc_3()
+	
+	resWorkFunc+=generateCode(exp_1)
 	alert(resWorkFunc)
 	
 }
 //------------------------------------------------------------
-function newFunc_3()
+function generateCode(expressions)
 {
-	var Text = "Функция №4"
-	//alert(Text);
-	return Text;
+	f = new Function('x', 'return x + 2');  // 
+	return eval(expressions) + " " + f(75); // 
 }
 //-------------------------------------------------------------
 vers();
