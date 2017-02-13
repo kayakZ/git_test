@@ -1,4 +1,4 @@
-﻿var exp_1="x=6;z=x*x+3;"
+﻿var exp_1="x=77;z=x*x+3;"
 var exp_2="str = 'cicada'\n str.toUpperCase()"
 function vers()
 {
