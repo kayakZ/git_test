@@ -48,9 +48,9 @@ function generateCode(expressions)
 	 break;
 	}
 	//--------------------------------------------------------------------
-	
+	Gl = analys.toUpperCase()
 	f = new Function('x', 'return x ');	
-	return eval(expressions) + " " + f(n) + " " + "Тип ввода " + analys; // 
+	return eval(expressions) + " " + f(n) + " " + "Тип ввода->" + Gl; // 
 }
 //-------------------------------------------------------------
 vers();
