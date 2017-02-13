@@ -18,8 +18,39 @@ function vers()
 //------------------------------------------------------------
 function generateCode(expressions)
 {
-	f = new Function('x', 'return x + 1975');  // 
-	return eval(expressions) + " " + f(75) + " " + eval(exp_2); // 
+	var n = prompt("Введите любой текст...", "");
+	var analys = "?";
+	switch(typeof n) 
+	{
+     case 'number': // Преобразуем число в шестнадцатеричное целое
+	 analys = "number"
+     break;
+     case 'string': // Возвращаем строку, заключенную в кавычки
+	 analys = "string"
+     break;
+     case 'boolean': // 
+	 analys = "boolean"
+	 break;
+	  case 'string': // Возвращаем строку, заключенную в кавычки
+	  analys = "string"
+     break;
+     case 'boolean': // 
+	 analys = "boolean"
+	 break;
+	 case 'object': // 
+	 analys = "object"
+	 break;
+	 case 'undefined': // 
+	 analys = "undefined"
+	 break;
+	 default: // 
+	 analys = "undefined"
+	 break;
+	}
+	//--------------------------------------------------------------------
+	
+	f = new Function('x', 'return x ');	
+	return eval(expressions) + " " + f(n) + " " + "Тип ввода " + analys; // 
 }
 //-------------------------------------------------------------
 vers();
