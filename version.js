@@ -13,6 +13,7 @@
 	Text+="Изменение 11 GitHub \n";
 	Text+="Изменение 12 GitHub \n";
 	Text+="Изменение 13 GitHub \n";
+	Text+="Изменение 14 GitHub 13.02.2017\n";
 	
 	alert(Text);
 	
