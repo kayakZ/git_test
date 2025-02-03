@@ -3,22 +3,23 @@ var exp_2="str = 'cicada'\n str.toUpperCase()"
 function vers()
 {
 	var Text = ""
-	Text+="Изменение 14 GitHub 13.02.2017\n";
+	Text+="Изменение 14 GitHub 13.02.2025\n";
 	Text+="Изменение 15 GitHub 13.02.2017\n";
+	Text+="Изменение 16 GitHub 03.02.2025\n";
 	
-	alert(Text);
+	//alert(Text);
 	
 	
 	var resWorkFunc=" ";
 	
-	resWorkFunc+=generateCode(exp_1)
-	alert(resWorkFunc)
+	resWorkFunc+=generateCode(exp_2)
+	alert(Text +  "\n" +resWorkFunc)
 	
 }
 //------------------------------------------------------------
 function generateCode(expressions)
 {
-	var n = prompt("Введите любой текст...", "");
+	/*var n = prompt("Введите любой текст...", "");
 	var analys = "?";
 	switch(typeof n) 
 	{
@@ -49,8 +50,9 @@ function generateCode(expressions)
 	}
 	//--------------------------------------------------------------------
 	Gl = analys.toUpperCase()
-	f = new Function('x', 'return x ');	
-	return eval(expressions) + " " + f(n) + " " + "Тип ввода->" + Gl; // 
+	f = new Function('x', 'return x ');	*/
+	//return eval(expressions) + " " + f(n) + " " + "Тип ввода->" + Gl; // 
+	return eval(expressions); // 
 }
 //-------------------------------------------------------------
-//vers();
+vers();
