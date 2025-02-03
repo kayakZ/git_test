@@ -53,4 +53,4 @@ function generateCode(expressions)
 	return eval(expressions) + " " + f(n) + " " + "Тип ввода->" + Gl; // 
 }
 //-------------------------------------------------------------
-vers();
+//vers();
