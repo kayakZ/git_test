@@ -6,6 +6,7 @@ function vers()
 	Text+="Изменение 14 GitHub 13.02.2025\n";
 	Text+="Изменение 15 GitHub 13.02.2017\n";
 	Text+="Изменение 16 GitHub 03.02.2025\n";
+	Text+="Изменение 17 GitHub 03.02.2025\n";
 	
 	//alert(Text);
 	
