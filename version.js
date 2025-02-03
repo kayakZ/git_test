@@ -1,5 +1,5 @@
 ﻿var exp_1="x=77;z=x*x+3;"
-var exp_2="str = 'cicada'; x=5; x=x*x; str = str + ' ' + x;  \n str.toUpperCase(); "
+var exp_2="str = 'cicada'; x=60; x=x*x; str = str + ' ' + x;  \n str.toUpperCase(); "
 function vers()
 {
 	var Text = ""
