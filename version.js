@@ -1,11 +1,12 @@
 ﻿var exp_1="x=77;z=x*x+3;"
-var exp_2="str = 'cicada'\n str.toUpperCase()"
+var exp_2="str = 'cicada'; x=60; x=x*x; str = str + ' ' + x;  \n str.toUpperCase(); "
 function vers()
 {
 	var Text = ""
 	Text+="Изменение 14 GitHub 13.02.2025\n";
 	Text+="Изменение 15 GitHub 13.02.2017\n";
 	Text+="Изменение 16 GitHub 03.02.2025\n";
+	Text+="Изменение 17 GitHub 03.02.2025\n";
 	
 	//alert(Text);
 	
