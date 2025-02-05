@@ -2,15 +2,15 @@
 var exp_2="str = 'cicada'; x=60; x=x*x; str = str + ' ' + x;  \n str.toUpperCase(); "
 function vers()
 {
-	var Text = ""
-	Text+="Изменение 14 GitHub 13.02.2025\n";
+	date = new Date();
+	var Text = "🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 \n\nСегодня - " + date.toLocaleString() + "\n\n🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥 🟥\n\n";
+	Text+="Изменение 14 GitHub 13.02.2017\n";
 	Text+="Изменение 15 GitHub 13.02.2017\n";
 	Text+="Изменение 16 GitHub 03.02.2025\n";
 	Text+="Изменение 17 GitHub 03.02.2025\n";
+	Text+="Изменение 18 GitHub 05.02.2025\n";
 	
-	//alert(Text);
-	
-	
+		
 	var resWorkFunc=" ";
 	
 	resWorkFunc+=generateCode(exp_2)
