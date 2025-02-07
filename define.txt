@@ -3,4 +3,5 @@
 #define MAX_COUNT 5 
 #define JS_Count 77
 #define htm_count 57
+#define JS_500 34
 
