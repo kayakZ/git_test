@@ -1,12 +1,12 @@
 ﻿var exp_1="x=77;z=x*x+3;"
-var exp_2="str = 'cicada'; x=40; x=x*x; str = str + ' ' + x;  \n str.toUpperCase(); "
+var exp_2="str = 'cicada'; x=40,y=20; x=x*y; str = str + ' ' + x;  \n str.toUpperCase(); "
 function vers()
 {
 	date = new Date();
-	var Text = "🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 \n\nСегодня - " + date.toLocaleString() + "\n\n🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 \n\n";
+	var Text = "🍀 💮 🍀 💮 🍀 💮 🍀 💮 🍀 💮 🍀 💮 \n\nСегодня - " + date.toLocaleString() + "\n\n🍀 💮 🍀 💮 🍀 💮 🍀 💮 🍀 💮 🍀 💮 \n\n";
 	Text+="Изменение 14 GitHub 13.02.2017\n";
-	Text+= "⬜\n⬜\n⬜\n";
-	Text+="Изменение 19 GitHub 06.02.2025\n";
+	Text+= "✧\n✧\n✧\n";
+	Text+="Изменение 21 GitHub 07.02.2025\n";
 			
 	var resWorkFunc="";
 	
