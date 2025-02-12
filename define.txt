@@ -4,4 +4,6 @@
 #define JS_Count 77
 #define htm_count 57
 #define JS_500 34
-
+#define HTML_SOCKET 300
+#define html_Perkins
+#define JS_ZONDA 777
